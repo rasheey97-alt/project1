@@ -1,0 +1,192 @@
+* {
+  margin: 10px;
+  padding: 2px;
+}
+body {
+  font-family: "sans-serif", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.video {
+  height: 550px;
+  width: 100%;
+  background-image: url(../images/video_1.jpg);
+  background-size: cover;
+  padding-left: 2px;
+  padding-top: 2px;
+  background-position: center;
+  text-align: center;
+}
+
+.video span {
+  color: white;
+  font-family: "sans-serif", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}
+.video h3 {
+  color: rgb(250, 243, 243);
+  font-family: "sans-serif", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 6px;
+
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  font-weight: bold;
+}
+.first {
+  background-image: url("../images/food.jpg");
+  height: 300px;
+  width: 100%;
+}
+.second {
+  background-image: url("../images/first.jpg");
+  height: 300px;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway", sans-serif;
+  color: #0a0a0a;
+}
+.h6 {
+  text-align: left;
+  margin: left;
+}
+
+.video1 {
+  height: 100px;
+  width: 100px;
+}
+.product_heading {
+  padding: 15px;
+  border-bottom: 1px solid rgb(237, 241, 237);
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  background-color: rgb(red, green, blue);
+  color: rgba(5, 27, 92, 0.76);
+}
+.products {
+  justify-content: space-evenly;
+  display: flex;
+  text-align: center;
+}
+
+.product_category {
+  border: 0px solid blue;
+  height: 300px;
+  width: 30%;
+  text-align: centr;
+}
+.product_category img {
+  width: 100%;
+  height: 50%;
+}
+.product_category h2 {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.product_category p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.div1 {
+  border: 2px solid blue;
+  height: 300px;
+  width: 30%;
+  text-align: centr;
+  box-shadow: -5px 0px 12px -5px rgba(5, 27, 92, 0.76);
+}
+
+.div1 {
+  background-image: url(../images/video_room1.jpg);
+  height: 300px;
+  width: 30%;
+  border: 0px solid blue;
+  display: flex;
+
+  text-align: centr;
+}
+
+.features_room {
+  padding-top: 0px;
+  display: block;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #fcfafa;
+}
+/* .features_room .rooms_here .single_rooms::befoe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #fff;
+  background: -moz-linear-gradient(top, #fff 0%, #000 77%);
+  background: -webkit-linear-gradient(top, #fff 0%, #000 77%);
+  background: linear-gradient(to bottom, #fff 0%, #000 77%);
+  filter: progidDXImageT; */
+
+/* z-index: 1;
+  opacity: 0.5;
+} */
+.features_room .rooms_here .single_rooms .room_thumb {
+  position: relative;
+}
+
+/* .features_room .rooms_here .single_rooms {
+  width: 100%;
+  margin-bottom: 30px; */
+
+.rooms_here {
+  border: 0px solid rgb(246, 246, 250);
+
+  /* background-color: rgb(253, 251, 251); */
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* .single_rooms {
+  border: 2px solid #080808;
+  float: left;
+  width: 20%;
+  height: 20%;
+  float: left;
+} */
+
+.room_thumb {
+  border: 1px solid rgb(253, 251, 251);
+  float: left;
+  height: 500px;
+  width: 500px;
+}
+.img {
+  width: 100%;
+  height: 450px;
+}
+.room_heading_inner {
+  color: black;
+}
